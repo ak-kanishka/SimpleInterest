@@ -50,7 +50,7 @@ public class AppTest {
     @Test
     public void testWrongExpectedValue() {
         assertEquals(
-            2000.0,
+            1000.0,
             App.calculateSimpleInterest(10000, 5, 2),
             0.001
         );
